@@ -11,13 +11,23 @@ public class ZappingTest {
     /* Primer commit */
     @Test
     void testClicOrigenClicDestino(){
-        assertEquals(0, Zapping.buscarCanales(0, 0));
+        assertEquals(0, Zapping.buscarCanales(0, 0, 0));
+    }
+
+    /* Segundo commit */
+    @Test
+    void testClicOrigenClicDestino2(){
+        assertEquals(2, Zapping.buscarCanales(1, 1, 1));
     }
 
     @Test
-    void testClicOrigenClicDestino2(){
-
+    void testClicOrigenClicDestino3(){
+        assertEquals(30, Zapping.buscarCanales(10, 30, 20));
     }
 
-    
+    /* Tercer commit & Refactor */
+    @Test
+    void testClicOrigenClicDestino4(){
+        assertEquals(99, Zapping.buscarCanales(2, 99, 2));
+    }
 }
