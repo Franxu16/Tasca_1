@@ -30,4 +30,10 @@ public class ZappingTest {
     void testClicOrigenClicDestino4(){
         assertEquals(99, Zapping.buscarCanales(2, 99, 2));
     }
+
+    /* Cuarto commit & Refactor */
+    @Test
+    void testClicOrigenClicDestino5(){
+        assertEquals(63, Zapping.buscarCanales(5, 63, 41));
+    }
 }
