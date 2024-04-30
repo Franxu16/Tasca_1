@@ -17,7 +17,7 @@ public class ZappingTest {
     /* Segundo commit */
     @Test
     void testClicOrigenClicDestino2(){
-        assertEquals(2, Zapping.buscarCanales(1, 1, 1));
+        assertEquals(2, Zapping.buscarCanales(1, 2, 1));
     }
 
     @Test
