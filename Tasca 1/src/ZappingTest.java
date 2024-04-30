@@ -8,8 +8,16 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 
 public class ZappingTest {
+    /* Primer commit */
     @Test
     void testClicOrigenClicDestino(){
         assertEquals(0, Zapping.buscarCanales(0, 0));
     }
+
+    @Test
+    void testClicOrigenClicDestino2(){
+
+    }
+
+    
 }
